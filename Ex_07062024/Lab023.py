@@ -17,17 +17,20 @@ shopping_list.append("curd") # Add item in the end
 print(shopping_list)
 shopping_list.insert(3, "jam") # Add item in the middle
 print(shopping_list)
+shopping_list.insert(2, "Toast")
+print(shopping_list)
+
 
 shopping_list.extend(["chips", "salt"]) # Add multiple items in the end
 print(shopping_list)
 
-shopping_list.remove("bread") # Remove item
+shopping_list.remove("bread") #Remove item
 print(shopping_list.pop())
 print(shopping_list.index("butter"))
 shopping_list.reverse()
-shopping_list.sort()
+shopping_list.sort()  #SORTED BY ALPHABETICALLY
 print(shopping_list)
-shopping_list[0] ="Pramod"
+shopping_list[0] ="Pramod"  #We can change the value (MUTABLE)
 print(shopping_list)
 
 #
