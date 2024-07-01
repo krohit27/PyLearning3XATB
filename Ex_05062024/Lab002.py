@@ -1,5 +1,0 @@
-print("Hello RK!")
-print(2+2)
-print(2/2)
-print(2*2)
-print(2-2)
